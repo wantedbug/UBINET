@@ -1,57 +1,63 @@
 .nav {
-  font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .nav a {
-  color: #5a5a5a;
-  font-size: 12px;
-  font-weight: 600;
-  padding-top: 14px;
-  padding-bottom: 14px;
-  padding-right: 20px;
-  text-transform: uppercase;
+    color: #5a5a5a;
+    font-size: 12px;
+    font-weight: 600;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    padding-right: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
 }
 
 .nav li {
-  display: inline;
+    display: inline;
+}
+
+.nav .current {
+    color: #B4DC00;
 }
 
 .jumbotron {
-  height: 384px;
-  background-image:url('http://upload.wikimedia.org/wikipedia/commons/7/76/Google_Glass_detail.jpg');
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: auto;
-  font-family: 'Open Sans', sans-serif;
-  color: #fff;
+    height: 384px;
+    background-image:url('http://upload.wikimedia.org/wikipedia/commons/7/76/Google_Glass_detail.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+    font-family: 'Open Sans', sans-serif;
+    color: #fff;
 }
 
 .jumbotron .container {
-  position: relative;
-  padding-left: 30px;
+    position: relative;
+    padding-left: 30px;
 }
 
 .jumbotron h1 {
-  font-size: 48px;
-  font-weight: bold;
-  padding-bottom: 10px;
+    font-size: 48px;
+    font-weight: bold;
+    padding-bottom: 10px;
 }
 
 .jumbotron p {
-  font-size: 20px;
+    font-size: 20px;
 }
 
 .content {
-  background-color: #f7f7f7;
-  padding-top: 20px;
-  font-family: 'Open Sans', sans-serif;
+    background-color: #f7f7f7;
+    padding-top: 20px;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .content h3 {
-  font-size: 18px;
-  font-weight: bold;
+    font-size: 18px;
+    font-weight: bold;
 }
 
 .content a {
-  color: #00b0ff;
+    color: #00b0ff;
+    text-decoration: none;
 }
