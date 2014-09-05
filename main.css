@@ -1,0 +1,54 @@
+.nav a {
+  color: #5a5a5a;
+  font-size: 12px;
+  font-weight: bold;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  padding-right: 15px;
+  text-transform: uppercase;
+}
+
+.nav li {
+  display: inline;
+}
+
+.jumbotron {
+  height: 500px;
+  background-image:url('http://upload.wikimedia.org/wikipedia/commons/1/15/Pebble_watch_email_1.png');
+  background-position: center; 
+  background-repeat: no-repeat;
+  background-size: 60%;
+}
+
+.jumbotron .container {
+  position: relative;
+  padding-left: 30px;
+}
+
+.jumbotron h1 {
+  color: #fff;
+  font-size: 48px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+}
+
+.jumbotron p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  color: #fff;
+}
+
+.content {
+  background-color: #f7f7f7;
+  padding-top: 20px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.content h3 {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.content a {
+  color: #00b0ff;
+}
