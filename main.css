@@ -1,3 +1,7 @@
+a:hover {
+    color: #FF9C01 !important;
+}
+
 .nav {
     font-family: 'Open Sans', sans-serif;
 }
@@ -21,12 +25,23 @@
     color: #B4DC00;
 }
 
+#header_home {
+    background-image: url('http://upload.wikimedia.org/wikipedia/commons/7/76/Google_Glass_detail.jpg');
+}
+
+#header_sns {
+    background-image: url('http://social.cs.tut.fi/img/slides/cafeteria3.png');
+}
+
+#header_prog {
+    background-image: url('http://social.cs.tut.fi/img/slides/cafeteria3.png');
+}
+
 .jumbotron {
     height: 384px;
-    background-image:url('http://upload.wikimedia.org/wikipedia/commons/7/76/Google_Glass_detail.jpg');
     background-position: center;
     background-repeat: no-repeat;
-    background-size: auto;
+    background-size: 1150px;
     font-family: 'Open Sans', sans-serif;
     color: #fff;
 }
@@ -46,9 +61,13 @@
     font-size: 20px;
 }
 
-.content {
-    background-color: #f7f7f7;
+#content_home {
     padding-top: 20px;
+}
+
+.content {
+    background-color: #fcfcfc;
+    padding-bottom: 30px;
     font-family: 'Open Sans', sans-serif;
 }
 
